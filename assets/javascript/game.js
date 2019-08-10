@@ -53,7 +53,7 @@
                 
                 } else{
                     winCount++;
-                    alert("Winner Winner!/n"+userGuess + "was the correct answer!");
+                    alert("Winner Winner! '"+userGuess + "' was the correct answer!");
                     document.getElementById("win-count").innerText = winCount;
                     resetGame();
                 };
